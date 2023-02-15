@@ -11,8 +11,8 @@ export const LandingPage = () => {
                 <div className={s.divTitle}>
                     <h1 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"45px"}}>Aplicaciones Conectadas</h1>
                     <ul className={s.listPages}>
-                        <li className={s.pagesIcon}><img src={laruinatvLogo} alt="laruinatv" width="120px" /></li>
-                        <li className={s.pagesIcon}><img src={wogLogo} alt="laruinatv" width="120px" /></li>
+                        <li className={s.pagesIcon}><a href="https://tv.laruinarecords.cl" ><img src={laruinatvLogo} alt="laruinatv" width="120px" /></a></li>
+                        <li className={s.pagesIcon}><a href='https://worldofgwerh.cl/'><img src={wogLogo} alt="wog" width="120px" /></a></li>
                         {/* <li className={s.pagesIcon}><img src={laruinatvLogo} alt="laruinatv" width="120px" /></li> */}
                     </ul>
                     <h2 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"15px"}}> Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
