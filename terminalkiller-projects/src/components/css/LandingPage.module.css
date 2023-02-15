@@ -29,3 +29,9 @@
     height: 100vh;
     position: absolute;
 }
+
+.divTitle{
+    position: absolute;
+    margin-top: 100px;
+    width: 100vw;
+}
