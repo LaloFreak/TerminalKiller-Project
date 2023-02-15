@@ -15,7 +15,7 @@ export const LandingPage = () => {
                         <li className={s.pagesIcon}><img src={wogLogo} alt="laruinatv" width="120px" /></li>
                         {/* <li className={s.pagesIcon}><img src={laruinatvLogo} alt="laruinatv" width="120px" /></li> */}
                     </ul>
-                    <h2 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"15px"}}>E-commerce, aplicaciones interactivas, multimedia y mucho más...</h2>
+                    <h2 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"15px"}}> Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
                 </div>
             </div>
         </div>
