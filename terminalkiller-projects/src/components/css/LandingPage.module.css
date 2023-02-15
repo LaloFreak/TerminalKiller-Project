@@ -1,7 +1,31 @@
 .contLandingPage{
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
     position: absolute;
-    
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    align-content: center;
+    overflow-x: hidden;
+}
+
+.listPages{
+    margin-top: 0px;
+    margin-left: -30px;
+    margin-right: 0px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.bgCanvas{
+    background: linear-gradient(to bottom, #000000cf, rgba(255, 255, 255, 0) 15%);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
 }

@@ -1,0 +1,36 @@
+.divNav{
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+.ulNav{
+    display: flex;
+}
+
+.ulMenu{
+    display: flex;
+    color: white;
+    list-style: none;
+    font-family: Bebas Neue;
+    font-weight: thin;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ulMenu>li{
+    margin-right: 40px;
+    margin-top: 10px;
+    transition-duration: .4s;
+}
+
+.ulMenu>li:hover{
+    filter: drop-shadow(0px 0px 4px green);
+}
+
+
+.terminalkillerLogo{
+    margin-top: -20px;
+}

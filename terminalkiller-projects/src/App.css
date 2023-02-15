@@ -1,3 +1,24 @@
 .App {
   text-align: center;
 }
+
+:visited, :link{
+  color: white;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* ancho barra */
+  height: 100%;
+  position: absolute;
+  }
+::-webkit-scrollbar-track {
+  background: #171717; /* color fondo barra */
+  }
+::-webkit-scrollbar-thumb {
+  background: #fff2; /* color barra */
+  border-radius: 10px; /* borde barra */
+  }
+::-webkit-scrollbar-thumb:hover {
+  background: #fff4; /* color barra hover */
+  }
