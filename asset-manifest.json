@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ec50638a.css",
-    "main.js": "/static/js/main.a4223621.js",
+    "main.js": "/static/js/main.a6520c22.js",
     "static/js/787.87398c5c.chunk.js": "/static/js/787.87398c5c.chunk.js",
     "static/media/background.png": "/static/media/background.f8dd3c24c4873cb7a278.png",
     "static/media/WoG-Icon.png": "/static/media/WoG-Icon.57df0728f608db0e9740.png",
@@ -9,11 +9,11 @@
     "static/media/terminalkiller-logo.png": "/static/media/terminalkiller-logo.7dbe3068db719e28e85a.png",
     "index.html": "/index.html",
     "main.ec50638a.css.map": "/static/css/main.ec50638a.css.map",
-    "main.a4223621.js.map": "/static/js/main.a4223621.js.map",
+    "main.a6520c22.js.map": "/static/js/main.a6520c22.js.map",
     "787.87398c5c.chunk.js.map": "/static/js/787.87398c5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec50638a.css",
-    "static/js/main.a4223621.js"
+    "static/js/main.a6520c22.js"
   ]
 }
