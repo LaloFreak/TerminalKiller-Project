@@ -11,11 +11,18 @@ export const LandingPage = () => {
                 <div className={s.divTitle}>
                     <h1 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"45px"}}>Aplicaciones Conectadas</h1>
                     <ul className={s.listPages}>
-                        <li className={s.pagesIcon}><a href="https://tv.laruinarecords.cl" ><img src={laruinatvLogo} alt="laruinatv" width="120px" /></a></li>
-                        <li className={s.pagesIcon}><a href='https://worldofgwerh.cl/'><img src={wogLogo} alt="wog" width="120px" /></a></li>
-                        {/* <li className={s.pagesIcon}><img src={laruinatvLogo} alt="laruinatv" width="120px" /></li> */}
+                        <li className={s.pagesIcon}>
+                            <a target='_blank' href="https://tv.laruinarecords.cl">
+                                <img src={laruinatvLogo} alt="laruinatv" width="120px" />
+                            </a>
+                        </li>
+                        <li className={s.pagesIcon}>
+                            <a target='_blank' href='https://worldofgwerh.cl/'>
+                                <img src={wogLogo} alt="wog" width="120px" />
+                            </a>
+                        </li>
                     </ul>
-                    <h2 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"15px"}}> Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
+                    <h2 style={{color: "white", fontFamily: "Bebas Neue", fontSize:"15px"}}>Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
                 </div>
             </div>
         </div>
