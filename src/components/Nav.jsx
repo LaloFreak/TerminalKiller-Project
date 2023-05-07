@@ -9,7 +9,7 @@ export const Nav = () => {
                 <Link to="/"><img className={s.terminalkillerLogo} src={terminalkillerLogo} alt="Logo" height="80px" /></Link>
                 <ul className={s.ulMenu}>
                     <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/about">Quiénes somos</Link></li>
+                    <li><a href="http://developers.terminalkiller.site" target="_black" rel="noreferrer">Quiénes somos</a></li>
                     <li><Link to="/contact">Contacto</Link></li>
                 </ul>
             </ul>

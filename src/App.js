@@ -1,6 +1,6 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage } from './components/LandingPage';
+import { LandingPage } from './pages/LandingPage';
 
 function App() {
   return (
