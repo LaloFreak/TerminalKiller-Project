@@ -11,14 +11,15 @@
   width: 10px; /* ancho barra */
   height: 100%;
   position: absolute;
+  z-index: 99999;
   }
 ::-webkit-scrollbar-track {
-  background: #171717; /* color fondo barra */
+  background: #19141a; /* color fondo barra */
   }
 ::-webkit-scrollbar-thumb {
   background: #fff2; /* color barra */
   border-radius: 10px; /* borde barra */
   }
 ::-webkit-scrollbar-thumb:hover {
-  background: #fff4; /* color barra hover */
+  background: rgba(134, 59, 138, 0.466); /* color barra hover */
   }
