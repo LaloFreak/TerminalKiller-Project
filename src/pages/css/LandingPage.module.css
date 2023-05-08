@@ -4,7 +4,7 @@
     position: absolute;
     background-image: url(../../images/background.png);
     background-color: blueviolet;
-    background: linear-gradient(168deg, rgb(126, 71, 197) 50% , #94086a 100%);  
+    background: linear-gradient(168deg, rgb(89, 138, 146) 10% , #5e445b 80%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

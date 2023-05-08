@@ -11,14 +11,14 @@ export const Welcome = () => {
             transition={{duration: 1.5}}
             animate={{opacity:1, x:0}}
           >
-            <h2>Hola!</h2>
+            <h2>¡Hola,</h2>
           </motion.div>
           <motion.div
             initial={{opacity:0, x:-15}}
             transition={{duration: 1.5, delay: .15}}
             animate={{opacity:1, x:0}}
           >
-            <h1>Bienvenido a TerminalKiller Project</h1>
+            <h1>Bienvenido/a!</h1>
           </motion.div>
           <motion.div
             initial={{opacity:0, x:-15}}
@@ -26,6 +26,14 @@ export const Welcome = () => {
             animate={{opacity:1, x:0}}
           >
             <h3>Únete a nuestra Cooperativa de Programadores</h3>
+          </motion.div>
+          <motion.div
+            initial={{opacity:0, x:-15}}
+            transition={{duration: 1.5, delay: .45}}
+            animate={{opacity:1, x:0}}
+          >
+            <a href="http://ia-testing.terminalkiller.site/#/"><button className={s.buttonIA}>Visita nuestra IA en desarrollo</button></a>
+            <button disabled className={s.buttonContact}>Contactar</button>
           </motion.div>
         </div>
       </ul>
