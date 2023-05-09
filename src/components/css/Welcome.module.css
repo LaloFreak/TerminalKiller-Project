@@ -1,7 +1,7 @@
 .welcomeCont{
   position: static;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   margin-top: -16px;
 }
 
@@ -12,6 +12,7 @@
   padding-left: 4rem;
   display: flex;
   color: white;
+  width: 100%;
 }
 
 h1{
@@ -49,6 +50,7 @@ h1{
   box-shadow: 0px 0px 10px rgba(20, 45, 68, 0.788);
   transition-duration: .4s;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .buttonContact:hover{
@@ -60,7 +62,7 @@ h1{
   width: 512px;
   height: 360px;
   perspective: 1000px;
-  position: absolute;
+  position: relative;
   right: 30px;
   z-index: 1;
 }
@@ -89,4 +91,24 @@ h1{
   top: 0;
   left: 0;
   backface-visibility: hidden;
+}
+
+.widthWrapper{
+  display: flex;
+  justify-content: end;
+  width: 50%;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .welcomeText{
+    flex-direction: column;
+  }
+  .wrapper{
+    scale: .7
+  }
+  .widthWrapper{
+    margin-left: 0px;
+    width: 100%;
+  }
 }
