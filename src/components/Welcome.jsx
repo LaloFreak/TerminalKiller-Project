@@ -32,7 +32,7 @@ export const Welcome = () => {
             transition={{duration: 1.5, delay: .45}}
             animate={{opacity:1, x:0}}
           >
-            <a href="http://ia-testing.terminalkiller.site/#/"><button className={s.buttonIA}>Visita nuestra IA en desarrollo</button></a>
+            <a href="http://ai-testing.terminalkiller.site/#/"><button className={s.buttonIA}>Visita nuestra IA en desarrollo</button></a>
             <button disabled className={s.buttonContact}>Contactar</button>
           </motion.div>
         </div>
