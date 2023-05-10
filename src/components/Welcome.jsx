@@ -33,14 +33,14 @@ export const Welcome = () => {
             transition={{duration: 1.5, delay: .45}}
             animate={{opacity:1, x:0}}
           >
-            <a href="http://ai-testing.terminalkiller.site/#/"><button className={s.buttonIA}>Prueba nuestra IA en desarrollo</button></a>
+            <a href="https://terminalkiller.site/#/ai-testing"><button className={s.buttonIA}>Prueba nuestra IA en desarrollo</button></a>
             <button disabled className={s.buttonContact}>Contactar</button>
           </motion.div>
         </div>
         <div className={s.widthWrapper}>
           <div className={s.wrapper}>
             <div className={s.imageContainer}>
-              <img className={s.aiImg} src={aiImg} alt="" />
+            <a href="https://terminalkiller.site/#/ai-testing"><img className={s.aiImg} src={aiImg} alt="" /></a>
             </div>
           </div>      
         </div>
