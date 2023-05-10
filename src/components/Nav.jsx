@@ -10,7 +10,7 @@ export const Nav = () => {
                 <ul className={s.ulMenu}>
                     <li><Link to="/">Inicio</Link></li>
                     <li><a href="http://developers.terminalkiller.site" rel="noreferrer">Quiénes somos</a></li>
-                    <li><Link to="/contact">Contacto</Link></li>
+                    {/*<li><Link to="/contact">Contacto</Link></li>*/}
                 </ul>
             </ul>
         </div>
