@@ -39,9 +39,9 @@ export const Welcome = () => {
         </div>
         <div className={s.widthWrapper}>
           <div className={s.wrapper}>
-            <div className={s.imageContainer}>
-            <a href="https://terminalkiller.site/#/ai-testing"><img className={s.aiImg} src={aiImg} alt="" /></a>
-            </div>
+              <div className={s.imageContainer}>
+                  <img className={s.aiImg} src={aiImg} alt="" />
+              </div>
           </div>      
         </div>
       </ul>
