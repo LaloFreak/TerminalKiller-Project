@@ -9,17 +9,48 @@
 }
 
 .divTitle{
-  position: relative;
+  max-width: 100vw;
   display: flex;
-  justify-content: center;
-  padding-top: 10rem; 
+  justify-content: center; 
+  padding: 60px;
+  padding-right: 50px;
+}
+
+.pagesIcon{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  transition-duration: .4s;
+}
+
+.link{
+  background-color: rgba(48, 48, 48, 0.486);
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  transition-duration: .4s;
+}
+
+.imgApps{
+  transition-duration: .4s;
+}
+
+.imgApps:hover{
+  transform: translateY(-10px);
 }
 
 .contApps{
   background-color: rgba(124, 103, 128, 0.774);
-  width: 80%;
+  width: 100%;
   height: 80%;
   padding: 100px;
   border-radius: 20px;
   margin-bottom: 100px;
+}
+
+h2 {
+  color: white;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 200;
 }

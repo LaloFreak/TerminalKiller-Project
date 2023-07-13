@@ -33,8 +33,16 @@ export const Welcome = () => {
             transition={{duration: 1.5, delay: .45}}
             animate={{opacity:1, x:0}}
           >
-            <a href="https://terminalkiller.site/#/ai-testing"><button className={s.buttonIA}>Prueba nuestra IA en desarrollo</button></a>
-            <button disabled className={s.buttonContact}>Contactar</button>
+            <button className={s.buttonIA}>
+              <a className={s.aButton} href="https://terminalkiller.site/#/ai-testing">
+                Prueba nuestra IA en desarrollo
+              </a>
+            </button>
+            <button disabled className={s.buttonContact}>
+              <a className={s.aButton} href="mailto:terminalkiller@gmail.com">
+                Contactar
+              </a>
+            </button>
           </motion.div>
         </div>
         <div className={s.widthWrapper}>

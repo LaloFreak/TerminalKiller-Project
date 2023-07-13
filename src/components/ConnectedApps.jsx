@@ -19,7 +19,6 @@ export const ConnectedApps = (props) => {
             <ul className={s.listPages}>
               {
                 apps?.map((e, index)=>{
-                  console.log(e)
                   return(
                     <motion.div
                     initial={{opacity: 0}}
@@ -28,8 +27,8 @@ export const ConnectedApps = (props) => {
                     transition={{duration: 1.5}}
                     >
                     <li className={s.pagesIcon} key={`app${index}`}>
-                      <a rel="noreferrer" target='_blank' href={e.url}>
-                        <img src={RenderDriveImg(e.idImg)} alt={e.name} width="120px" />
+                      <a className={s.link} rel="noreferrer" target='_blank' href={e.url}>
+                        <img src={RenderDriveImg(e.idImg)} className={s.imgApps} alt={e.name} width="120px" />
                       </a>
                     </li>
                   </motion.div>
@@ -37,7 +36,7 @@ export const ConnectedApps = (props) => {
                 })
               }
             </ul>
-          <h2 style={{color: "white", fontFamily: "Helvetica", fontSize:"15px"}}>Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
+          <h2>Aplicaciones interactivas, multimedia, E-commerce y mucho más...</h2>
         </div>
       </div>
     </div>
