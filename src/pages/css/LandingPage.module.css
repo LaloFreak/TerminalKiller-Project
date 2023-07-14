@@ -1,8 +1,5 @@
 .contLandingPage{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    background-image: url(../../images/background.png);
+    width: 100%;
     background-color: blueviolet;
     background: linear-gradient(168deg, rgb(89, 138, 146) 10% , #5e445b 80%);
     background-size: cover;
@@ -11,33 +8,6 @@
     align-items: center;
     align-content: center;
     overflow-x: hidden;
-}
-
-.listPages{
-    margin-top: 0px;
     display: flex;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    height: auto;
-    width: 50vw;
-    position: relative;
-    left: 25vw;
-    margin-left: -40px;
-    
-}
-
-.bgCanvas{
-    background: linear-gradient(to bottom, #000000cf, rgba(255, 255, 255, 0) 15%);
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-}
-
-.divTitle{
-    position: relative;
-    margin-top: 100px;
-    width: 100vw;
-    height: 100vh;
+    flex-direction: column;
 }

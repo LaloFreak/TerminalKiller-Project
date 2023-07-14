@@ -1,17 +1,21 @@
 .refNav{
     width: 100%;
+    z-index: 999;
     position: fixed;
-    z-index: 9999;
+}
+
+.navSectionCont{
+    padding-right: 60px;
+    padding-left: 60px;  
+    width: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .navCont{
     border-radius: 15px;
-    width: auto;
-    margin-right: 60px;
-    margin-left: 60px;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
+    width: 100%;
     backdrop-filter: blur(20px);
 }
 
@@ -26,7 +30,12 @@
 
 .ulNav{
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .ulMenu{
@@ -43,7 +52,6 @@
 
 .ulMenu>li{
     margin-right: 40px;
-    margin-top: 15px;
     transition-duration: .4s;
 }
 
@@ -51,7 +59,15 @@
     filter: drop-shadow(0px 0px 4px green);
 }
 
-
-.terminalkillerLogo{
-    margin-top: -20px;
+@media screen and (max-width: 700px) {
+    .ulMenu{
+        display: none;
+    }
+    .ulNav{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: auto;
+    }
 }
