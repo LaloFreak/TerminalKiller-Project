@@ -15,7 +15,7 @@ export const Nav = () => {
                             <ul className={s.ulMenu}>
                                 <li><Link to="/">Inicio</Link></li>
                                 <li>
-                                    <Link to="/developers" rel="noreferrer">
+                                    <Link to="/about" rel="noreferrer">
                                         Quiénes somos
                                     </Link>
                                 </li>

@@ -1,12 +1,9 @@
 import s from './css/Developers.module.css'
-import { useEffect } from 'react'
-import { removeLocalStorage } from '../functions/RemoveLocalStorage'
 import { motion } from 'framer-motion'
 import nachoPic from '../images/nacho-iconic.png'
 import laloPic from '../images/LaloFreak.png'
 
 export const Developers = () => {
-  useEffect(()=> {removeLocalStorage()},[])
   return (
     <div className={s.developersCont}>
       <div className={s.cardsCont}>

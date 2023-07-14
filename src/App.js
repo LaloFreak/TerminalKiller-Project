@@ -2,7 +2,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { LandingPage } from './pages/LandingPage';
-import { Developers } from './components/Developers';
+import { About } from './pages/About';
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
         <Route exact path='/'>
           <LandingPage/>
         </Route>
-        <Route exact path='/developers'>
-          <Developers/>
+        <Route exact path='/about'>
+          <About/>
         </Route>
       </Switch>
     </div>
