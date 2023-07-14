@@ -61,3 +61,10 @@ h2 {
   font-size: 15px;
   font-weight: 200;
 }
+
+@media screen and (max-width: 800px) {
+  .sectionCont{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
