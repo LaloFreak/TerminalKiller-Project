@@ -74,6 +74,7 @@ h1{
   perspective: 1000px;
   position: relative;
   z-index: 1;
+  padding: 25px;
 }
 
 .imageContainer {
