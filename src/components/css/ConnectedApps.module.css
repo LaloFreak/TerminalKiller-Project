@@ -62,9 +62,22 @@ h2 {
   font-weight: 200;
 }
 
+.title{
+  color: white;
+  font-family: Helvetica; 
+  font-size: 40px;
+}
+
 @media screen and (max-width: 800px) {
   .sectionCont{
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .contApps{
+    padding: 50px;
+  }
+  .title{
+    font-size: 20px;
+    margin-bottom: 50px;
   }
 }

@@ -15,7 +15,7 @@ export const ConnectedApps = (props) => {
               viewport={{once: false}}
               transition={{duration: 1}}
               >
-              <h1 style={{color: "white", fontFamily: "Helvetica", fontSize:"45px"}}>Aplicaciones Conectadas</h1>
+              <h1 className={s.title}>Aplicaciones Conectadas</h1>
             </motion.div>
               <ul className={s.listPages}>
                 {
