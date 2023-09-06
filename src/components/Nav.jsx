@@ -19,7 +19,7 @@ export const Nav = () => {
                                         Quiénes somos
                                     </Link>
                                 </li>
-                                {/*<li><Link to="/contact">Contacto</Link></li>*/}
+                                <li><a href="https://getexpert.netlify.app">GetExpert</a></li>
                             </ul>
                         </ul>
                     </div>
