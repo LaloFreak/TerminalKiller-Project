@@ -7,7 +7,7 @@ export const Developers = () => {
   return (
     <div className={s.developersCont}>
       <div className={s.cardsCont}>
-          <a target='_blank' rel="noreferrer" href='http://gwerh.developers.terminalkiller.site/'>
+          <a target='_blank' rel="noreferrer" href='http://gwerh.netlify.app/'>
             <motion.div 
               initial={{opacity:0, y:10, background:"#ffffff20", boxShadow:"0px 0px 20px white", width: "300px", borderRadius:"15px", paddingBottom:"50px"}}
               transition={{duration: 2, type: 'spring'}}
