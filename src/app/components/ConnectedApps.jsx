@@ -1,6 +1,6 @@
-import s from './css/ConnectedApps.module.css'
-import { RenderDriveImg } from '../functions/RenderDriveImages'
-import { motion } from 'framer-motion'
+import s from './ConnectedApps.module.css';
+import { motion } from 'framer-motion';
+import { RenderDriveImg } from '../../functions/RenderDriveImages';
 
 export const ConnectedApps = (props) => {
   const { apps } = props

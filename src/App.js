@@ -1,8 +1,8 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import { Nav } from './components/Nav';
-import { LandingPage } from './pages/LandingPage';
-import { About } from './pages/About';
+import { Nav } from './app/components/Nav';
+import { LandingPage } from './app/pages/LandingPage';
+import { About } from './app/pages/About';
 
 function App() {
   return (

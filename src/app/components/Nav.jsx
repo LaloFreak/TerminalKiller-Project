@@ -1,6 +1,6 @@
-import s from "./css/Nav.module.css"
-import terminalkillerLogo from "../images/terminalkiller-logo.png"
-import { Link } from "react-router-dom"
+import s from "./Nav.module.css";
+import { Link } from "react-router-dom";
+import terminalkillerLogo from "../../assets/images/terminalkiller-logo.png";
 
 export const Nav = () => {
     return (
