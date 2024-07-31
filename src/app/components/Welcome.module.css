@@ -1,0 +1,155 @@
+.welcomeCont{
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.welcomeText{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+h1{
+  margin-top: -1rem;
+  font-size: 3rem;
+}
+
+.textAlign{
+  text-align: left;
+  z-index: 99;
+}
+
+.buttonIA{
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(72, 132, 201);
+  box-shadow: 0px 0px 10px rgba(66, 66, 66, 0.788);
+  transition-duration: .4s;
+}
+
+.buttonIA:hover{
+  cursor: pointer;
+  background-color: rgb(50, 89, 134);
+}
+
+.buttonContact{
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  background-color: rgb(82, 100, 121);
+  box-shadow: 0px 0px 10px rgba(20, 45, 68, 0.788);
+  transition-duration: .4s;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.aButton{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  margin: -12px;
+}
+
+.buttonContact:hover{
+  cursor: pointer;
+  background-color: rgb(27, 30, 34);
+}
+
+.wrapper {
+  width: 512px;
+  height: 360px;
+  perspective: 1000px;
+  position: relative;
+  z-index: 1;
+  padding: 25px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition-duration: 1s;
+  transform-origin: center;
+  transform: rotateY(-10deg) rotateX(30deg) rotateZ(5deg);
+  box-shadow: 0px 0px 100px black;
+  opacity: .5;
+}
+
+.imageContainer:hover {
+  transform: rotateX(-10deg) rotateY(30deg) rotateZ(-5deg);
+  opacity: 1;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.widthWrapper{
+  display: flex;
+}
+
+@media screen and (max-width: 1080px) {
+  .welcomeText{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    flex-direction: column;
+  }
+  .wrapper{
+    margin: 0;
+    padding: 0;
+    width: 384px;
+    height: 270px;
+  }
+  .widthWrapper{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imageContainer{
+    width: auto;
+  }
+
+  .buttonIA{
+    width: 100%;
+  }
+
+  .buttonContact{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .welcomeText{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .textAlign{
+    text-align: center;
+    padding-top: 50px;
+  }
+}
